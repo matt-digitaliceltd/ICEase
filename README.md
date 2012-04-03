@@ -4,6 +4,8 @@ Please see http://www.iosconsultancy.co.uk/ICEase for more information about thi
 
 "Products" contains the file to drop into your project
 
+This framework is licensed under the Lesser GPL license. More information can be found here: http://www.gnu.org/copyleft/lesser.html
+
 #Installation
 
 To use this framework in your application follow the steps below:
