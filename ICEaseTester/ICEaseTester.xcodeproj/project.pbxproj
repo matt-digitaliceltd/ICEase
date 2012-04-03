@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34982438152B34D500B0A8E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34982437152B34D500B0A8E9 /* UIKit.framework */; };
+		3498243A152B34D500B0A8E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34982439152B34D500B0A8E9 /* Foundation.framework */; };
+		3498243C152B34D500B0A8E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3498243B152B34D500B0A8E9 /* CoreGraphics.framework */; };
+		34982442152B34D500B0A8E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34982440152B34D500B0A8E9 /* InfoPlist.strings */; };
+		34982444152B34D500B0A8E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34982443152B34D500B0A8E9 /* main.m */; };
+		34982448152B34D500B0A8E9 /* ICAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34982447152B34D500B0A8E9 /* ICAppDelegate.m */; };
+		3498244B152B34D500B0A8E9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34982449152B34D500B0A8E9 /* MainStoryboard.storyboard */; };
+		3498244E152B34D500B0A8E9 /* ICViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3498244D152B34D500B0A8E9 /* ICViewController.m */; };
+		34982455152B34F100B0A8E9 /* ICEase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34982454152B34F100B0A8E9 /* ICEase.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34982433152B34D500B0A8E9 /* ICEaseTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICEaseTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34982437152B34D500B0A8E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34982439152B34D500B0A8E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3498243B152B34D500B0A8E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3498243F152B34D500B0A8E9 /* ICEaseTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ICEaseTester-Info.plist"; sourceTree = "<group>"; };
+		34982441152B34D500B0A8E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34982443152B34D500B0A8E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34982445152B34D500B0A8E9 /* ICEaseTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ICEaseTester-Prefix.pch"; sourceTree = "<group>"; };
+		34982446152B34D500B0A8E9 /* ICAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICAppDelegate.h; sourceTree = "<group>"; };
+		34982447152B34D500B0A8E9 /* ICAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICAppDelegate.m; sourceTree = "<group>"; };
+		3498244A152B34D500B0A8E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3498244C152B34D500B0A8E9 /* ICViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICViewController.h; sourceTree = "<group>"; };
+		3498244D152B34D500B0A8E9 /* ICViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICViewController.m; sourceTree = "<group>"; };
+		34982454152B34F100B0A8E9 /* ICEase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICEase.framework; path = "../../../Library/Developer/Xcode/DerivedData/ICEase-biaecepbimtsvqdxnexcttglblsh/Build/Products/Debug-iphoneos/ICEase.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34982430152B34D500B0A8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34982455152B34F100B0A8E9 /* ICEase.framework in Frameworks */,
+				34982438152B34D500B0A8E9 /* UIKit.framework in Frameworks */,
+				3498243A152B34D500B0A8E9 /* Foundation.framework in Frameworks */,
+				3498243C152B34D500B0A8E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34982428152B34D500B0A8E9 = {
+			isa = PBXGroup;
+			children = (
+				34982454152B34F100B0A8E9 /* ICEase.framework */,
+				3498243D152B34D500B0A8E9 /* ICEaseTester */,
+				34982436152B34D500B0A8E9 /* Frameworks */,
+				34982434152B34D500B0A8E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34982434152B34D500B0A8E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34982433152B34D500B0A8E9 /* ICEaseTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34982436152B34D500B0A8E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34982437152B34D500B0A8E9 /* UIKit.framework */,
+				34982439152B34D500B0A8E9 /* Foundation.framework */,
+				3498243B152B34D500B0A8E9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3498243D152B34D500B0A8E9 /* ICEaseTester */ = {
+			isa = PBXGroup;
+			children = (
+				34982446152B34D500B0A8E9 /* ICAppDelegate.h */,
+				34982447152B34D500B0A8E9 /* ICAppDelegate.m */,
+				34982449152B34D500B0A8E9 /* MainStoryboard.storyboard */,
+				3498244C152B34D500B0A8E9 /* ICViewController.h */,
+				3498244D152B34D500B0A8E9 /* ICViewController.m */,
+				3498243E152B34D500B0A8E9 /* Supporting Files */,
+			);
+			path = ICEaseTester;
+			sourceTree = "<group>";
+		};
+		3498243E152B34D500B0A8E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3498243F152B34D500B0A8E9 /* ICEaseTester-Info.plist */,
+				34982440152B34D500B0A8E9 /* InfoPlist.strings */,
+				34982443152B34D500B0A8E9 /* main.m */,
+				34982445152B34D500B0A8E9 /* ICEaseTester-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34982432152B34D500B0A8E9 /* ICEaseTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34982451152B34D500B0A8E9 /* Build configuration list for PBXNativeTarget "ICEaseTester" */;
+			buildPhases = (
+				3498242F152B34D500B0A8E9 /* Sources */,
+				34982430152B34D500B0A8E9 /* Frameworks */,
+				34982431152B34D500B0A8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICEaseTester;
+			productName = ICEaseTester;
+			productReference = 34982433152B34D500B0A8E9 /* ICEaseTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3498242A152B34D500B0A8E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IC;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = iOSConsultancy.co.uk;
+			};
+			buildConfigurationList = 3498242D152B34D500B0A8E9 /* Build configuration list for PBXProject "ICEaseTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34982428152B34D500B0A8E9;
+			productRefGroup = 34982434152B34D500B0A8E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34982432152B34D500B0A8E9 /* ICEaseTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34982431152B34D500B0A8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34982442152B34D500B0A8E9 /* InfoPlist.strings in Resources */,
+				3498244B152B34D500B0A8E9 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3498242F152B34D500B0A8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34982444152B34D500B0A8E9 /* main.m in Sources */,
+				34982448152B34D500B0A8E9 /* ICAppDelegate.m in Sources */,
+				3498244E152B34D500B0A8E9 /* ICViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34982440152B34D500B0A8E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34982441152B34D500B0A8E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34982449152B34D500B0A8E9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3498244A152B34D500B0A8E9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3498244F152B34D500B0A8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34982450152B34D500B0A8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34982452152B34D500B0A8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/ICEase-biaecepbimtsvqdxnexcttglblsh/Build/Products/Debug-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ICEaseTester/ICEaseTester-Prefix.pch";
+				INFOPLIST_FILE = "ICEaseTester/ICEaseTester-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../framework/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34982453152B34D500B0A8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/ICEase-biaecepbimtsvqdxnexcttglblsh/Build/Products/Debug-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ICEaseTester/ICEaseTester-Prefix.pch";
+				INFOPLIST_FILE = "ICEaseTester/ICEaseTester-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../framework/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3498242D152B34D500B0A8E9 /* Build configuration list for PBXProject "ICEaseTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3498244F152B34D500B0A8E9 /* Debug */,
+				34982450152B34D500B0A8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34982451152B34D500B0A8E9 /* Build configuration list for PBXNativeTarget "ICEaseTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34982452152B34D500B0A8E9 /* Debug */,
+				34982453152B34D500B0A8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3498242A152B34D500B0A8E9 /* Project object */;
+}
