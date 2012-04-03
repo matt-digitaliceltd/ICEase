@@ -15,7 +15,7 @@
 		34982448152B34D500B0A8E9 /* ICAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34982447152B34D500B0A8E9 /* ICAppDelegate.m */; };
 		3498244B152B34D500B0A8E9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34982449152B34D500B0A8E9 /* MainStoryboard.storyboard */; };
 		3498244E152B34D500B0A8E9 /* ICViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3498244D152B34D500B0A8E9 /* ICViewController.m */; };
-		34982455152B34F100B0A8E9 /* ICEase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34982454152B34F100B0A8E9 /* ICEase.framework */; };
+		3498245F152B47AF00B0A8E9 /* ICEase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3498245E152B47AF00B0A8E9 /* ICEase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 		3498244A152B34D500B0A8E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3498244C152B34D500B0A8E9 /* ICViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICViewController.h; sourceTree = "<group>"; };
 		3498244D152B34D500B0A8E9 /* ICViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICViewController.m; sourceTree = "<group>"; };
-		34982454152B34F100B0A8E9 /* ICEase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICEase.framework; path = "../../../Library/Developer/Xcode/DerivedData/ICEase-biaecepbimtsvqdxnexcttglblsh/Build/Products/Debug-iphoneos/ICEase.framework"; sourceTree = "<group>"; };
+		3498245E152B47AF00B0A8E9 /* ICEase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICEase.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ICEase-emtnrnffshngbqaouujgdqvwbwwk/Build/Products/Release-iphoneos/ICEase.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34982455152B34F100B0A8E9 /* ICEase.framework in Frameworks */,
+				3498245F152B47AF00B0A8E9 /* ICEase.framework in Frameworks */,
 				34982438152B34D500B0A8E9 /* UIKit.framework in Frameworks */,
 				3498243A152B34D500B0A8E9 /* Foundation.framework in Frameworks */,
 				3498243C152B34D500B0A8E9 /* CoreGraphics.framework in Frameworks */,
@@ -53,7 +53,7 @@
 		34982428152B34D500B0A8E9 = {
 			isa = PBXGroup;
 			children = (
-				34982454152B34F100B0A8E9 /* ICEase.framework */,
+				3498245E152B47AF00B0A8E9 /* ICEase.framework */,
 				3498243D152B34D500B0A8E9 /* ICEaseTester */,
 				34982436152B34D500B0A8E9 /* Frameworks */,
 				34982434152B34D500B0A8E9 /* Products */,
@@ -245,6 +245,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/ICEase-biaecepbimtsvqdxnexcttglblsh/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/ICEase-emtnrnffshngbqaouujgdqvwbwwk/Build/Products/Release-iphoneos\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICEaseTester/ICEaseTester-Prefix.pch";
@@ -262,6 +263,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/ICEase-biaecepbimtsvqdxnexcttglblsh/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/ICEase-emtnrnffshngbqaouujgdqvwbwwk/Build/Products/Release-iphoneos\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICEaseTester/ICEaseTester-Prefix.pch";
@@ -292,6 +294,7 @@
 				34982453152B34D500B0A8E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
