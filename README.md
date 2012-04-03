@@ -1,10 +1,8 @@
 Please see http://www.iosconsultancy.co.uk/ICEase for more information about this framework.
 
-ICEase.xcworkspace contains both the framework and the tester application
+"Framework" contains the source code
 
-"framework" contains the framework itself
-
-"ICEaseTester" is a simple iPhone app to test the framework
+"Products" contains the file to drop into your project
 
 ##Installation
 
