@@ -32,13 +32,13 @@ typedef enum ICEaseLogLevel {
 -(void)logAtLevel:(ICEaseLogLevel)level format:(NSString *)format, ... NS_FORMAT_FUNCTION(2,3);
 
 +(void)debug:(NSString *)string;
-+(void)debugFormat:(NSString *)format, ... NS_FORMAT_FUNCTION(2,3);
++(void)debugFormat:(NSString *)format, ... NS_FORMAT_FUNCTION(1,2);
 
 +(void)warn:(NSString *)string;
-+(void)warnFormat:(NSString *)format, ... NS_FORMAT_FUNCTION(2, 3);
++(void)warnFormat:(NSString *)format, ... NS_FORMAT_FUNCTION(1, 2);
 
 +(void)error:(NSString *)string;
-+(void)errorFormat:(NSString *)format, ... NS_FORMAT_FUNCTION(2, 3);
++(void)errorFormat:(NSString *)format, ... NS_FORMAT_FUNCTION(1, 2);
 
 void ICEaseSetLogLevel(ICEaseLogLevel level);
 
