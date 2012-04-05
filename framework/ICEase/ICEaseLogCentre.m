@@ -53,6 +53,42 @@ static ICEaseLogCentre *mainCentre = nil;
     }
 }
 
++(void)debug:(NSString *)string {
+    [[ICEaseLogCentre logCentre] logAtLevel:ICEaseLogLevelDebug string:string];
+}
++(void)debugFormat:(NSString *)format, ... {
+    va_list argumentList;
+    if (format) {
+        va_start(argumentList, format);
+        [[ICEaseLogCentre logCentre] logAtLevel:ICEaseLogLevelDebug string:[[NSString alloc] initWithFormat:format arguments:argumentList]];
+        va_end(argumentList);
+    }
+}
+
++(void)warn:(NSString *)string {
+    [[ICEaseLogCentre logCentre] logAtLevel:ICEaseLogLevelWarning string:string];
+}
++(void)warnFormat:(NSString *)format, ... {
+    va_list argumentList;
+    if (format) {
+        va_start(argumentList, format);
+        [[ICEaseLogCentre logCentre] logAtLevel:ICEaseLogLevelWarning string:[[NSString alloc] initWithFormat:format arguments:argumentList]];
+        va_end(argumentList);
+    }
+}
+
++(void)error:(NSString *)string {
+    [[ICEaseLogCentre logCentre] logAtLevel:ICEaseLogLevelError string:string];
+}
++(void)errorFormat:(NSString *)format, ... {
+    va_list argumentList;
+    if (format) {
+        va_start(argumentList, format);
+        [[ICEaseLogCentre logCentre] logAtLevel:ICEaseLogLevelError string:[[NSString alloc] initWithFormat:format arguments:argumentList]];
+        va_end(argumentList);
+    }
+}
+
 
 void ICEaseSetLogLevel(ICEaseLogLevel level) {
     [ICEaseLogCentre setLogLevel:level];
