@@ -12,7 +12,6 @@ typedef enum ICEaseLogLevel {
     ICEaseLogLevelError,
     ICEaseLogLevelWarning,
     ICEaseLogLevelDebug
-    
 } ICEaseLogLevel;
 @interface ICEaseLogCentre : NSObject
 ////////////////////////////////////////////////////////////////////////////////

@@ -61,7 +61,6 @@
 			children = (
 				349825CD152B545700B0A8E9 /* ICEase.h */,
 				349B8A3F152B74E90062C0BE /* Logging */,
-				349B8A42152B757E0062C0BE /* SetTableViews */,
 				34982526152B4F3500B0A8E9 /* Supporting Files */,
 			);
 			path = ICEase;
@@ -87,13 +86,6 @@
 				349825D1152B545700B0A8E9 /* NSObject+LoggingAdditions.m */,
 			);
 			name = Logging;
-			sourceTree = "<group>";
-		};
-		349B8A42152B757E0062C0BE /* SetTableViews */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = SetTableViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
