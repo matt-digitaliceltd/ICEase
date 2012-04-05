@@ -13,12 +13,25 @@ typedef enum ICEaseSelectOneDisplayMode {
     ICEaseSelectOneDisplayOnePerRow = 0,
     ICEaseSelectOneDisplayOnePerSection
 } ICEaseSelectOneDisplayMode;
+
+@class ICEaseSelectOneTVD;
+
+@protocol ICEaseSelectOneTVDDelegate <NSObject>
+
+@optional
+-(void)tableViewDataSource:(ICEaseSelectOneTVD *)tvd selectedObject:(id)object;
+-(UITableViewCell *)createNewCellforTableViewDataSource:(ICEaseSelectOneTVD *)tvd;
+
+@end
+
 @interface ICEaseSelectOneTVD : NSObject <UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) NSArray *choices;
 @property (nonatomic, strong) NSDictionary *customObjectUIMappings;
-@property (nonatomic, strong) UITableViewCell *templateCell;
 @property (nonatomic) ICEaseSelectOneDisplayMode displayMode;
 @property (nonatomic) float gapBetweenSections;
+@property (nonatomic, unsafe_unretained) id delegate;
+
+@property (nonatomic, strong) id chosenObject;
 
 -(id)initWithChoices:(NSArray *)choices;
 @end
