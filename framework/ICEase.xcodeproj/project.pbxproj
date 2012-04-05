@@ -14,9 +14,6 @@
 		349825D5152B545700B0A8E9 /* NSObject+LoggingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 349825D0152B545700B0A8E9 /* NSObject+LoggingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		349825D6152B545700B0A8E9 /* NSObject+LoggingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 349825D1152B545700B0A8E9 /* NSObject+LoggingAdditions.m */; };
 		349B8A44152B75AC0062C0BE /* Logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 349B8A41152B74F80062C0BE /* Logging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		349B8A45152B75AC0062C0BE /* SetTableViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 349B8A43152B75940062C0BE /* SetTableViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		349B8A4C152B76A20062C0BE /* ICEaseSelectOneTVD.h in Headers */ = {isa = PBXBuildFile; fileRef = 349B8A4A152B76A20062C0BE /* ICEaseSelectOneTVD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		349B8A4D152B76A20062C0BE /* ICEaseSelectOneTVD.m in Sources */ = {isa = PBXBuildFile; fileRef = 349B8A4B152B76A20062C0BE /* ICEaseSelectOneTVD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +27,6 @@
 		349825D0152B545700B0A8E9 /* NSObject+LoggingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LoggingAdditions.h"; sourceTree = "<group>"; };
 		349825D1152B545700B0A8E9 /* NSObject+LoggingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LoggingAdditions.m"; sourceTree = "<group>"; };
 		349B8A41152B74F80062C0BE /* Logging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
-		349B8A43152B75940062C0BE /* SetTableViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetTableViews.h; sourceTree = "<group>"; };
-		349B8A4A152B76A20062C0BE /* ICEaseSelectOneTVD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEaseSelectOneTVD.h; sourceTree = "<group>"; };
-		349B8A4B152B76A20062C0BE /* ICEaseSelectOneTVD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEaseSelectOneTVD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +92,6 @@
 		349B8A42152B757E0062C0BE /* SetTableViews */ = {
 			isa = PBXGroup;
 			children = (
-				349B8A43152B75940062C0BE /* SetTableViews.h */,
-				349B8A4A152B76A20062C0BE /* ICEaseSelectOneTVD.h */,
-				349B8A4B152B76A20062C0BE /* ICEaseSelectOneTVD.m */,
 			);
 			name = SetTableViews;
 			sourceTree = "<group>";
@@ -115,8 +106,6 @@
 				349825D2152B545700B0A8E9 /* ICEase.h in Headers */,
 				349825D3152B545700B0A8E9 /* ICEaseLogCentre.h in Headers */,
 				349B8A44152B75AC0062C0BE /* Logging.h in Headers */,
-				349B8A4C152B76A20062C0BE /* ICEaseSelectOneTVD.h in Headers */,
-				349B8A45152B75AC0062C0BE /* SetTableViews.h in Headers */,
 				349825D5152B545700B0A8E9 /* NSObject+LoggingAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,7 +220,6 @@
 			files = (
 				349825D4152B545700B0A8E9 /* ICEaseLogCentre.m in Sources */,
 				349825D6152B545700B0A8E9 /* NSObject+LoggingAdditions.m in Sources */,
-				349B8A4D152B76A20062C0BE /* ICEaseSelectOneTVD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
